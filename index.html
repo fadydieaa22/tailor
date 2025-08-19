@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Html 5</title>
+
+    <!-- 
+    
+          html : hypertext markup language.
+
+          tags :
+
+            1- opening closing tag (nested tag , regular tag): p , span , div , ....
+
+            2- self closing tag (empty , void ) : hr , br , img ,....
+
+
+          html5 (latest verion) : new elements (new semantic tags) , new input types and attrs , media tags (audio , video)
+                                  graphic tags (canvas , svg) , js apis (geolocation , session storage , local storage)
+                                  
+                                  
+                               Semantic tags : nav , header , footer , section , main , article , aside , ......
+
+                               1- Clean code 
+
+                               2- SEO : Search engine optmization
+
+    
+    -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <a
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    ></a>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="preloader">
+      <section class="preloader__circle"></section>
+      <img src="images/loder.png" alt="" class="preloader__img" />
+    </section>
+
+    <header class="header">
+      <a href="" class="header__logo"><img src="images/logo.png" alt="" /></a>
+      <nav class="navbar">
+        <ul class="navbar__links">
+          <li class="navbar__item"><a href="#">Home</a></li>
+          <li class="navbar__item"><a href="#">About</a></li>
+          <li class="navbar__item"><a href="#">Services</a></li>
+          <li class="navbar__item"><a href="#">Blog</a></li>
+          <li class="navbar__item"><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="header__visit--us">visit us</a>
+      </nav>
+      <section class="clearfix"></section>
+    </header>
+
+    <section class="hero">
+      <section class="hero__content">
+        <img src="images/hero-icon.png" alt="" />
+        <div class="fadeIn">
+          <h1>We make cloths that suit you</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
+            facilis, ab aspernatur et, provident distinctio incidunt beatae,
+            dicta quae suscipit similique?
+          </p>
+          <a href="" class="hero__our--services btn">Our services</a>
+        </div>
+      </section>
+
+      <section class="hero__img">
+        <img src="images/h1_hero1.png" alt="" />
+      </section>
+    </section>
+
+    <main class="offers">
+      <section class="offer">
+        <section class="offer__img">
+          <div class="img__container">
+            <img src="images/offers1.png" alt="" />
+          </div>
+
+          <section class="offer__content">
+            <span>1</span>
+            <h3>Tailor Sweing</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </section>
+        </section>
+      </section>
+      <section class="offer">
+        <section class="offer__img">
+          <div class="img__container">
+            <img src="images/offers2.png" alt="" />
+          </div>
+
+          <section class="offer__content">
+            <span>2</span>
+            <h3>Mesurement</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </section>
+        </section>
+      </section>
+      <section class="offer">
+        <section class="offer__img">
+          <div class="img__container">
+            <img src="images/offers3.png" alt="" />
+          </div>
+
+          <section class="offer__content">
+            <span>3</span>
+            <h3>Ready-made</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <section class="about">
+      <section class="about__img">
+        <img src="images/visit_bg.png" alt="" />
+      </section>
+
+      <section class="about__content">
+        <section class="about__text">
+          <h2>
+            About our <br />
+            tailor house
+          </h2>
+          <p class="paragraph-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
+          <p class="paragraph-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare.
+          </p>
+
+          <a href="#" class="btn">more about us</a>
+        </section>
+      </section>
+    </section>
+
+    <section class="services">
+      <div class="services-header">
+        <h2>Why use our service?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+          Suspendisse varius enim in eros.
+        </p>
+      </div>
+
+      <div class="service-grid">
+        <div class="service-item">
+          <img src="images/services1.svg" alt="Icon" />
+          <h3>Tailor Sewing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <img src="images/services2.svg" alt="Icon" />
+          <h3>Tailor Sewing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <img src="images/services3.svg" alt="Icon" />
+          <h3>Tailor Sewing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <img src="images/services4.svg" alt="Icon" />
+          <h3>Tailor Sewing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <p class="quote">
+            <span class="quote-icon">“</span>
+            Brook presents your services with flexible, convenient and compose
+            layouts. You can select your favorite layouts & elements for cular
+            ts with unlimited customization possibilities.
+          </p>
+          <div class="author">
+            <img src="images/testimonial.png" alt="Robart Brown" />
+            <div class="author-info">
+              <h4>Robart Brown</h4>
+              <p>Creative designer at Colorlib</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <p class="quote">
+            <span class="quote-icon">“</span>
+            This platform has completely transformed the way I work. Intuitive,
+            stylish, and so easy to manage client feedback.
+          </p>
+          <div class="author">
+            <img src="images/testimonial.png" alt="Jane Smith" />
+            <div class="author-info">
+              <h4>Jane Smith</h4>
+              <p>Freelance UX Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-nav">
+        <button id="prev">&#8592;</button>
+        <span id="slide-number">1</span>
+        <button id="next">&#8594;</button>
+      </div>
+    </section>
+
+    <section class="instagram-section">
+      <h2>Follow us on Instagram</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+        Suspendisse varius enim in eros.
+      </p>
+
+      <div class="instagram-gallery">
+        <div class="insta-item">
+          <div class="img-wrapper">
+            <img src="images/instra1.png" alt=Instagram Post 1" />
+          </div>
+          <a href="https://instagram.com" target="_blank" class="insta-icon">
+            <img
+              src="images/instagram-brands-solid-full.svg"
+              alt="Instagram Icon"
+            />
+          </a>
+        </div>
+        <div class="insta-item">
+          <div class="img-wrapper">
+            <img src="images/instra2.png" alt="Instagram Post 2" />
+          </div>
+          <a href="https://instagram.com" target="_blank" class="insta-icon">
+            <img
+              src="images/instagram-brands-solid-full.svg"
+              alt="Instagram Icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- new input types and attrs -->
+
+    <!-- <section class="form">
+      <form>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="username"
+          value="mona"
+          autocomplete="off"
+          autofocus
+        />
+        <input type="number" name="" id="inpNum" min="10" max="100" />
+        <button onclick="up()" type="button">Step Up</button>
+        <button onclick="down()" type="button">Step Down</button>
+        <button onclick="test()" type="button">Test</button>
+
+        <input
+          type="range"
+          name=""
+          id="rangeInp"
+          min="10"
+          max="100"
+          step="10"
+        />
+
+        <p id="rangeVal"></p>
+
+        <input
+          type="email"
+          name=""
+          pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,3}"
+          id=""
+        />
+
+        <input type="color" name="" id="" />
+        <input type="date" name="" id="" />
+        <input type="time" name="" id="" />
+        <input type="datetime-local" name="" id="" />
+        <input type="month" name="" id="" />
+        <input type="week" name="" id="" />
+        <input type="search" name="" id="" />
+        <input type="tel" name="" id="" />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section> -->
+
+    <!-- ---------- media ---------- -->
+    <!-- src="media/Anitek_-_Komorebi.ogg" -->
+    <!-- <section class="media">
+      <audio controls muted loop autoplay>
+        <source src="media/Anitek_-_Komorebi.ogg" />
+        <source src="media/Anitek_-_Komorebi.mp3" />
+        Your browser does not support audio tag
+      </audio>
+
+      <button onclick="playAud()">Play</button>
+      <button onclick="pauseAud()">Pause</button>
+      <button onclick="stopAud()">Stop</button>
+      <button onclick="muteAud()">Mute</button>
+      <button onclick="test()">Test</button>
+      volume :
+      <input type="range" name="" id="volumeInp" min="0" max="1" step=".1" />
+
+      time :
+      <input type="range" name="" id="timeInp" min="0" step="1" />
+
+      speed :
+
+      <select name="" id="speedSelect">
+        <option value="0.5">0.5</option>
+        <option value="1">1</option>
+        <option value="1.5">1.5</option>
+        <option value="2">2</option>
+      </select>
+    </section> -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-map">
+          <img src="images/map.png.webp" alt="Map Location" />
+        </div>
+        <div class="footer-content">
+          <div class="footer-left">
+            <h2><span class="highlight">Tailor.</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing.
+            </p>
+            <p class="phone">(80) 783 367-3904</p>
+            <p class="small-phone">(80) 783 367-3904</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+          <div class="footer-right">
+            <h3>Our solutions</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy;2025 All rights reserved | This template is made with
+          <i class="fas fa-heart"></i> by <a href="#">Colorlib</a>
+        </p>
+        <button class="scroll-top" onclick="scrollToTop()">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
